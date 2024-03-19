@@ -1,5 +1,5 @@
 def main():
-    os_path = "C:/Works/Bookbot/bookbot/"
+    os_path = ""
     book_path = os_path + "books/frankenstein.txt"
     text = get_book_text(book_path)
     report(text)
